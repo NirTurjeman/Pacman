@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_background">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/main_Botton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="32dp">
+
+        <ImageButton
+            android:id="@+id/main_Botton_Left"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="70dp"
+            android:src="@drawable/leftbutton"
+            android:background="?attr/selectableItemBackground"
+            android:scaleType="centerInside"
+            android:contentDescription="Button with image icon" />
+
+
+
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="0dp">
+        </View>
+
+        <ImageButton
+            android:id="@+id/main_Botton_Right"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="70dp"
+            android:src="@drawable/rightbutton"
+            android:background="?attr/selectableItemBackground"
+            android:scaleType="centerInside"
+            android:contentDescription="Button with image icon" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/main_IMG_Player"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/player"
+        android:layout_above="@+id/main_Botton"
+        android:layout_marginBottom="40dp"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/main_IMG_health0"
+            android:layout_width="@dimen/health_dp"
+            android:layout_height="@dimen/health_dp"
+            app:srcCompat="@drawable/health" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/main_IMG_health1"
+            android:layout_width="@dimen/health_dp"
+            android:layout_height="@dimen/health_dp"
+            app:srcCompat="@drawable/health" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/main_IMG_health2"
+            android:layout_width="@dimen/health_dp"
+            android:layout_height="@dimen/health_dp"
+            app:srcCompat="@drawable/health" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/main_IMG_ghost0"
+        android:layout_width="@dimen/ghostSize"
+        android:layout_height="@dimen/ghostSize"
+        app:srcCompat="@drawable/pacman_logo"
+        android:visibility="invisible"/>
+</RelativeLayout>

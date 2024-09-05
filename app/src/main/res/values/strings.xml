@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HW_1</string>
+    <string name="game_over_message">Game Over, %1$s</string>
+</resources>

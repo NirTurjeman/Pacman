@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="health_dp">55dp</dimen>
+    <dimen name="moveInstruction">15dp</dimen>
+    <dimen name="coinSize">60dp</dimen>
+    <dimen name="ghostSize">60dp</dimen>
+    <dimen name="moveEnemy_dp">40dp</dimen>
+    <dimen name="startPosition">100dp</dimen>
+</resources>

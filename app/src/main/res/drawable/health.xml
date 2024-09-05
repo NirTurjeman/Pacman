@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+
+    <path
+        android:fillColor="#eaeaea"
+        android:pathData="M 48 2 C 73.4050984922 2 94 22.5949015078 94 48 C 94 73.4050984922 73.4050984922 94 48 94 C 22.5949015078 94 2 73.4050984922 2 48 C 2 22.5949015078 22.5949015078 2 48 2 Z" />
+    <path
+        android:fillColor="#bacece"
+        android:pathData="M48,2c-1.35,0-2.68 0.07 -4,0.18a46,46,0,0,1,0,91.63c1.32 0.11 ,2.65 0.18 ,4,0.18A46,46,0,0,0,48,2Z" />
+    <path
+        android:strokeColor="#281a3b"
+        android:strokeWidth="4"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round"
+        android:pathData="M 48 2 C 73.4050984922 2 94 22.5949015078 94 48 C 94 73.4050984922 73.4050984922 94 48 94 C 22.5949015078 94 2 73.4050984922 2 48 C 2 22.5949015078 22.5949015078 2 48 2 Z" />
+    <path
+        android:fillColor="#575072"
+        android:pathData="M57,58H71.63A3.38,3.38,0,0,0,75,54.63V43.38A3.38,3.38,0,0,0,71.63,40H57V25.38A3.38,3.38,0,0,0,53.63,22H42.38A3.38,3.38,0,0,0,39,25.38V40H24.37A3.38,3.38,0,0,0,21,43.38V54.63A3.38,3.38,0,0,0,24.37,58H39V72.63A3.38,3.38,0,0,0,42.37,76H53.62A3.38,3.38,0,0,0,57,72.63Z" />
+    <path
+        android:fillColor="#f47c6d"
+        android:pathData="M57,58H71.63A3.38,3.38,0,0,0,75,54.63V43.38A3.38,3.38,0,0,0,71.63,40H57V25.38A3.38,3.38,0,0,0,53.63,22H42.38A3.38,3.38,0,0,0,39,25.38V40H24.37A3.38,3.38,0,0,0,21,43.38V54.63A3.38,3.38,0,0,0,24.37,58H39V72.63A3.38,3.38,0,0,0,42.37,76H53.62A3.38,3.38,0,0,0,57,72.63Z" />
+    <path
+        android:strokeColor="#281a3b"
+        android:strokeWidth="4"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round"
+        android:pathData="M57,58H71.63A3.38,3.38,0,0,0,75,54.63V43.38A3.38,3.38,0,0,0,71.63,40H57V25.38A3.38,3.38,0,0,0,53.63,22H42.38A3.38,3.38,0,0,0,39,25.38V40H24.37A3.38,3.38,0,0,0,21,43.38V54.63A3.38,3.38,0,0,0,24.37,58H39V72.63A3.38,3.38,0,0,0,42.37,76H53.62A3.38,3.38,0,0,0,57,72.63Z" />
+</vector>
