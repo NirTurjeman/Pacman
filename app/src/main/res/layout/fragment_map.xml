@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/googleMap_LBL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Google Map:"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/dark_gray"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_gravity="top|start"/>
+</FrameLayout>

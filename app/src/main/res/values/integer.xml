@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="laneWide">5</integer>
+    <integer name="laneHigh">18</integer>
+    <integer name="MAX_GHOSTS">5</integer>
+    <integer name="MAX_COINS">3</integer>
+</resources>

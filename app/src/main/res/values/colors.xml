@@ -3,5 +3,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="design_default_background">#A3A3A3</color>
-    <color name="TryAgain_Button">#f2c738</color>
+    <color name="dark_gray">#636363</color>
+    <color name="table_header">#E7B81B</color>
 </resources>

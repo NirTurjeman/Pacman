@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.ScoreListFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/highScoreTable_LBL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="High Score Table"
+            android:textColor="@color/dark_gray"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_size"/>
+
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:stretchColumns="1">
+
+            <TableRow>
+                <TextView
+                    android:text="Score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:background="@color/table_header"
+                    android:textColor="@color/dark_gray"
+                    android:textSize="@dimen/table_title_text_size"
+                    android:gravity="center"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:text="Location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:background="@color/dark_gray"
+                    android:textColor="@color/table_header"
+                    android:textSize="@dimen/table_title_text_size"
+                    android:gravity="center"
+                    android:textStyle="bold" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</FrameLayout>

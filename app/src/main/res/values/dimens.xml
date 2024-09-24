@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="health_dp">55dp</dimen>
+    <dimen name="health_dp">160dp</dimen>
     <dimen name="moveInstruction">15dp</dimen>
-    <dimen name="coinSize">60dp</dimen>
+    <dimen name="coinSize">50dp</dimen>
     <dimen name="ghostSize">60dp</dimen>
-    <dimen name="moveEnemy_dp">40dp</dimen>
-    <dimen name="startPosition">100dp</dimen>
+    <dimen name="moveItem_dp">40dp</dimen>
+    <dimen name="startPosition">0dp</dimen>
+    <dimen name="text_size">25sp</dimen>
+    <dimen name="table_title_text_size">23sp</dimen>
+    <dimen name="table_text_size">7sp</dimen>
 </resources>

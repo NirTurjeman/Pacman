@@ -13,7 +13,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_marginHorizontal="10dp"
-        android:layout_marginBottom="32dp">
+        android:layout_marginBottom="32dp"
+        android:orientation="horizontal">
 
         <ImageButton
             android:id="@+id/main_Botton_Left"
@@ -23,15 +24,14 @@
             android:src="@drawable/leftbutton"
             android:background="?attr/selectableItemBackground"
             android:scaleType="centerInside"
+            android:layout_marginStart="10dp"
+            android:visibility="invisible"
             android:contentDescription="Button with image icon" />
 
-
-
-
         <View
-            android:layout_width="60dp"
-            android:layout_height="0dp">
-        </View>
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="70dp" />
 
         <ImageButton
             android:id="@+id/main_Botton_Right"
@@ -41,10 +41,12 @@
             android:src="@drawable/rightbutton"
             android:background="?attr/selectableItemBackground"
             android:scaleType="centerInside"
+            android:layout_marginEnd="10dp"
+            android:visibility="invisible"
             android:contentDescription="Button with image icon" />
 
-
     </androidx.appcompat.widget.LinearLayoutCompat>
+
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/main_IMG_Player"
@@ -55,32 +57,70 @@
         android:layout_marginBottom="40dp"/>
 
     <androidx.appcompat.widget.LinearLayoutCompat
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginStart="10dp">
+        android:layout_width="@dimen/health_dp"
+        android:layout_height="@dimen/health_dp"
+        android:layout_marginStart="10dp"
+        android:orientation="horizontal">
 
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/main_IMG_health0"
-            android:layout_width="@dimen/health_dp"
-            android:layout_height="@dimen/health_dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
             app:srcCompat="@drawable/health" />
 
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/main_IMG_health1"
-            android:layout_width="@dimen/health_dp"
-            android:layout_height="@dimen/health_dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
             app:srcCompat="@drawable/health" />
 
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/main_IMG_health2"
-            android:layout_width="@dimen/health_dp"
-            android:layout_height="@dimen/health_dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
             app:srcCompat="@drawable/health" />
     </androidx.appcompat.widget.LinearLayoutCompat>
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/main_Score_LBL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score: 000"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp">
+    </com.google.android.material.textview.MaterialTextView>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/main_Distance_LBL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_Score_LBL"
+        android:text="Distance: 000"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp">
+    </com.google.android.material.textview.MaterialTextView>
+
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@+id/main_IMG_ghost0"
+        android:id="@+id/main_IMG_ghost"
         android:layout_width="@dimen/ghostSize"
         android:layout_height="@dimen/ghostSize"
         app:srcCompat="@drawable/pacman_logo"
+        android:tag="Ghost"
+        android:visibility="invisible"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/main_IMG_Coin"
+        android:layout_width="@dimen/coinSize"
+        android:layout_height="@dimen/coinSize"
+        app:srcCompat="@drawable/coin"
+        android:tag="Coin"
         android:visibility="invisible"/>
 </RelativeLayout>
